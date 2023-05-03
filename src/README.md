@@ -1,30 +1,30 @@
-# Fizz Buzz
+# Single Number
 
 ### Task
-Given an integer n, return a string array answer (1-indexed) where:
+Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+You must implement a solution with a linear runtime complexity and use only constant extra space.
 
-+ answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
-+ answer[i] == "Fizz" if i is divisible by 3.
-+ answer[i] == "Buzz" if i is divisible by 5.
-+ answer[i] == i (as a string) if none of the above conditions are true.
 
 ### Example 1:
-Input: n = 3 <br>
-Output: ["1","2","Fizz"]
+Input: nums = [2,2,1] <br>
+Output: 1
 
 <br>
 
 ### Example 2:
-Input: n = 5 <br>
-Output: ["1","2","Fizz","4","Buzz"]
+Input: nums = [4,1,2,1,2] <br>
+Output: 4
 
 <br>
 
 ### Example 3:
-Input: n = 15 <br>
-Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
+Input: nums = [1] <br>
+Output: 1
 
 <br>
 
 ### Constraints:
-+ 1 <= n <= 104
++ 1 <= nums.length <= 3 * 104
++ -3 * 104 <= nums[i] <= 3 * 104
+ 
++ Each element in the array appears twice except for one element which appears only once.
