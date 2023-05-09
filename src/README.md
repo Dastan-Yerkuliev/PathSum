@@ -6,14 +6,14 @@ A leaf is a node with no children.
 
 
 ### Example 1:
-![](C:\Users\User\Downloads\Telegram Desktop\pathsum1.jpg)
+<img height="400" src="C:\Users\User\Downloads\Telegram Desktop\pathsum1.jpg" width="400"/> <br>
 Input: root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22 <br> Output: true <br>
 Explanation: The root-to-leaf path with the target sum is shown.
 
 <br>
 
 ### Example 2:
-![](C:\Users\User\Downloads\Telegram Desktop\pathsum2.jpg)
+<img height="400" src="C:\Users\User\Downloads\Telegram Desktop\pathsum2.jpg" width="400"/> <br>
 Input: root = [1,2,3], targetSum = 5 <br>
 Output: false <br>
 Explanation: There two root-to-leaf paths in the tree:
