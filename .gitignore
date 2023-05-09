@@ -1,4 +1,5 @@
 /Leetcode.iml
 /.idea/
 /out/
-/src/FizzBuzz.java
+/src/com/dastan/leetcode/FizzBuzz/
+/src/com/dastan/leetcode/SingleNumber/
